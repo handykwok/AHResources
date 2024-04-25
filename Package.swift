@@ -5,6 +5,9 @@ import PackageDescription
 
 let package = Package(
     name: "AHResources",
+    platforms: [
+            .iOS(.v16) // Set the minimum iOS version to iOS 16
+    ],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
